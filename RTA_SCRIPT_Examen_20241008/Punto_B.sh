@@ -43,18 +43,18 @@ sudo fdisk -l
 
 lsblk -f
 
-echo "/dev/sdc1 /home/vagrant/EXAMENES-UTN/alumno_1/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc2 /home/vagrant/EXAMENES-UTN/alumno_1/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc3 /home/vagrant/EXAMENES-UTN/alumno_1/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc1 /EXAMENES-UTN/alumno_1/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc2 /EXAMENES-UTN/alumno_1/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc3 /EXAMENES-UTN/alumno_1/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
 
-echo "/dev/sdc11 /home/vagrant/EXAMENES-UTN/alumno_2/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc5 /home/vagrant/EXAMENES-UTN/alumno_2/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc6 /home/vagrant/EXAMENES-UTN/alumno_2/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc11 /EXAMENES-UTN/alumno_2/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc5 /EXAMENES-UTN/alumno_2/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc6 /EXAMENES-UTN/alumno_2/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
 
-echo "/dev/sdc7 /home/vagrant/EXAMENES-UTN/alumno_3/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc8 /home/vagrant/EXAMENES-UTN/alumno_3/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
-echo "/dev/sdc9 /home/vagrant/EXAMENES-UTN/alumno_3/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc7 /EXAMENES-UTN/alumno_3/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc8 /EXAMENES-UTN/alumno_3/parcial_2 ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc9 /EXAMENES-UTN/alumno_3/parcial_3 ext4 defaults 0 0" | sudo tee -a /etc/fstab
 
-echo "/dev/sdc10 /home/vagrant/EXAMENES-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
+echo "/dev/sdc10 /EXAMENES-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
 
 sudo mount -a
