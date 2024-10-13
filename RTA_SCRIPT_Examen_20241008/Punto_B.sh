@@ -58,3 +58,4 @@ echo "/dev/sdc9 /EXAMENES-UTN/alumno_3/parcial_3 ext4 defaults 0 0" | sudo tee -
 echo "/dev/sdc10 /EXAMENES-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
 
 sudo mount -a
+lsblk -f
